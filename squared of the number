@@ -1,0 +1,18 @@
+#include <iostream>
+
+using namespace std;
+int main() {
+    double number;
+    
+    // Ask the user for input
+    cout << "Enter a number: ";
+    cin >> number;
+    
+    // Calculate the square by multiplying the number by itself
+    double square = number * number;
+    
+    // Display the result
+    cout << "The square of " << number << " is " << square << std::endl;
+    
+    return 0;
+}
