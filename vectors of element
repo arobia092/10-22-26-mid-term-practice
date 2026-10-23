@@ -1,1 +1,22 @@
+#include <iostream>
+#include <vector>
+#include <string>
 
+using namespace std;
+
+int main(){
+    //create a vector of integers and print all elements
+    //intitalization of vector
+    vector<int> numbers = {10,20,30,40,};
+    int firstElement = numbers.front();
+    int secondElement = numbers[1];
+    int thirdElement = numbers.at(2);
+    int lastElement = numbers.back();
+// Display values to the user
+    cout<<"firstElement: "<< firstElement<<std::endl; // Outputs ?
+    cout<<"secondElement: "<< secondElement<<std::endl; // Outputs ?
+    cout<<"thirdElement: "<< thirdElement<<std::endl; // Outputs ?
+    cout<<"lastElement: "<< lastElement<<std::endl; // Outputs ?
+
+    return 0;
+    
