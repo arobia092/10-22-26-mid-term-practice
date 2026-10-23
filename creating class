@@ -1,0 +1,19 @@
+#include <iostream>
+#include <vector>
+#include <string>
+
+using namespace std;
+class student {
+    private:
+    string name;
+    int numberid;
+    double gpa;
+    
+    public:
+    void diplayinfo();
+    
+};
+
+int main(){
+    
+}
