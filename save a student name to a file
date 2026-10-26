@@ -10,7 +10,7 @@ int main() {
 
    
     cout << "Enter student's full name: ";
-    getline(std::cin, studentName); 
+    getline(cin, studentName); 
     
     cout << "Enter student's ID/Roll number: ";
     cin >> studentNumber;
