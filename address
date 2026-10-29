@@ -1,1 +1,16 @@
+// make a pointer
+#include <iostream>
 
+using namespace std;
+
+int main(){
+    int value =42;
+    int* ptr = &value;
+    
+    cout << "value;" << value <<endl; // line 7 int value = 42
+    cout << "address of value:" << &value << endl; // address of 42
+    cout << "pointer stores:" << ptr << endl; // the pointer is storing the adress in memery
+    cout << "value of pointer:" << *ptr << endl; // is going to give you the value 
+    
+    return 0;
+}
