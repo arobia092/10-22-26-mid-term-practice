@@ -1,0 +1,29 @@
+//write a function that add two numbers and makes the pointer that gets the
+//address of the sum 
+#include <iostream>
+
+using namespace std; 
+//start of with the function that adds twonumber
+int add(int a ,int b){
+    //what will ir return 
+    return (a + b);
+}
+
+int main(){
+    int x = 12;
+    int y = 10;
+    int results = add(x,y);
+    cout << "the sum is:" << results <<endl;
+    
+    //pointer of sum 
+    
+    int* ptr = &results;
+    
+    
+    cout << "address of result:" << &results << endl;
+    cout << "pointer stores:" << ptr << endl;
+    cout << "the results:" << *ptr << endl;
+    
+    return 0;
+    
+}
